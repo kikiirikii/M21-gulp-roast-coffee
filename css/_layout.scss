@@ -1,0 +1,32 @@
+/*universal rules*/
+body {
+  @include bodylayout;
+  }
+  
+  html {
+  box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+  box-sizing: inherit
+  }
+
+  .mainbackground {
+    @include mainbackground;
+  }
+
+  h1 {
+    @include h1style;
+  }
+
+  h2 {
+    @include h2style;
+  }
+
+  article {
+    @include articlestyle;
+  }
+
+  picture img {
+    border-radius: $imgradius;
+  }

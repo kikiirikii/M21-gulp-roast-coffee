@@ -1,0 +1,19 @@
+.contactcontainer {
+    margin: 2rem;
+    padding: 0rem 2rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+
+    .contactarticle {
+        grid-column: 1/2;
+      }
+
+    .menuimg {
+        padding: 1rem 0rem;
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }

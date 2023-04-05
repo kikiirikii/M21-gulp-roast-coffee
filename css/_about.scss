@@ -1,0 +1,42 @@
+/*about page mobile style*/
+  .container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .articlelink {
+      color: $bodytxtcolor;
+    }
+
+    .button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 55px;
+      width: 126px;
+      margin-top: 2rem;
+      text-align: center;
+      background-color: $buttoncolor;
+      border-radius: 10px;
+      cursor: pointer;
+  
+        .buttonlink {
+          display: block;
+          color: $navlinkcolor;
+          padding: 1rem;
+          font-size: 1rem;
+          text-decoration: none;
+        }
+    }
+
+    .aboutimg {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }

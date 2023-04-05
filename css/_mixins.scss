@@ -1,0 +1,31 @@
+@mixin bodylayout {
+    margin: 0;
+    padding: 0;
+    background-color: $bodybckgrcolor;
+    font-family: $mainfont;
+}
+
+@mixin mainbackground {
+    background: #ffffff url("../media/images/gulp-bottom-beans.jpg") repeat-x bottom;
+    padding-bottom: 300px;
+}
+
+@mixin h1style {
+    margin: 0rem 0rem 2rem 0rem;
+    color: $bodytxtcolor;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+@mixin h2style {
+    margin: 2rem 0rem 0.5rem 0rem;
+    color: $bodytxtcolor;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+@mixin articlestyle {
+    color: $bodytxtcolor;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
